@@ -1,6 +1,6 @@
-# nodeJs-DigitalOcean-Mongoose
+# Node.js-DigitalOcean-Mongoose
 
-> My splendiferous Nodejs project
+> My first self-learning project.
 
 ## Build Setup
 
