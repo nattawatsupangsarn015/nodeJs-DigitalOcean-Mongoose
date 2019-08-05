@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-const package = require('./routes/packageApis/package')
+const backendApis = require('./routes/backendApis/backendApis')
 
 app.use(cors())
 
@@ -15,4 +15,4 @@ app.listen(PORT, () => {
   console.log("Start server with port : " + PORT)
 })
 
-app.use('/api/store', package)
+app.use('/backend', backendApis)
