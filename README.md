@@ -1,4 +1,4 @@
-# nodejsMongoDB
+# nodeJs-DigitalOcean-Mongoose
 
 > My splendiferous Nodejs project
 
